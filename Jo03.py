@@ -45,7 +45,6 @@ else:
 ########################
 # not 연산자
 money = 2000
-
 if not money >= 3000:
     print("돈이 부족합니다.")
 else:
@@ -73,7 +72,7 @@ else:
 
 ########################
 ## 조건부 표현식 (3항 연산자)
-# 조건문을 한줄로 간격하게 쓸수 있다.
+# 조건문을 한줄로 간단하게 쓸수 있다.
 score = 70
 message = "success" if score >= 60 else "failure"
 print(message)
