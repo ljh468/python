@@ -88,7 +88,7 @@ while treeHit < 10:
     if treeHit == 10:
         print("나무 넘어갑니다.")
 
-# break 사용법
+# break 사용법 ( 반복문 탈출 )
 coffee = 10
 money = 300
 while money:
@@ -99,7 +99,7 @@ while money:
         print("커피가 다 떨어졌습니다. 판매를 종료합니다.")
         break
 
-# continue 사용법
+# continue 사용법 ( 맨위로 이동)
 a = 0
 while a < 10:
     a += 1
@@ -175,3 +175,7 @@ print(result)
 
 result = [x * y for x in range(2, 10) for y in range(1, 10)]
 print(result)
+# result = []
+# for x in range(2, 10):
+#   for y in range(1, 10):
+#       result.append(x*y)
