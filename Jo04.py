@@ -91,7 +91,7 @@ def add2(a,b):
 add = lambda a, b: a+b
 
 result = add(3, 4)
-print(3,4)
+print(result)
 
 # 리스트안에 함수를 넣을수있음
 myList = [lambda a,b: a+b, lambda a,b: a*b]
