@@ -1,3 +1,4 @@
+#########################  조코딩 #########################
 # 함수
 # 입력과 출력
 def sum(a,b):
@@ -57,6 +58,7 @@ print(say_myself("이재훈", 27, True))
 print(say_myself("이재훈", 27))
 print(say_myself(old=27, name="이선영", man=False))
 
+########################
 # 함수 안에서 선언된 변수의 효력범위
 a = 1
 def vartest(a):
@@ -81,6 +83,7 @@ def vartest3():
 vartest3()
 print(a)
 
+########################
 ## Lambda 함수 ( 함수를 간단히 표현하는 방법 )
 ## list안에서 함수 적용가능
 
@@ -97,6 +100,7 @@ print(result)
 myList = [lambda a,b: a+b, lambda a,b: a*b]
 print(myList[1](1,2))
 
+########################
 ## 사용자 입력과 출력
 # 내장함수 input
 # number = input("숫자를 입력하세요 : ")
@@ -110,6 +114,8 @@ print("Life", "is", "too short") # 띄어쓰기 적용
 for i in range(10):
     print(i, end=' ')
 print()
+
+########################
 ## 파일 읽고 쓰기
 # 파일 생성하기
 # w는 쓰기모드, r은 읽기모드, a는 추가모드
