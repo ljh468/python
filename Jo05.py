@@ -177,11 +177,12 @@ else:
 
 ########################
 ## 예외처리 3
-f = open('foo.txt', 'w')
+f = open('foo.txt', 'r')
 try:
     # 무언가를 수행한다.
     data = f.read()
     print(data)
+    print("ddd")
 except Exception as e:
     print(e)
 finally:
@@ -265,7 +266,7 @@ print(int('1A', 16))
 # len 길이를 찾음
 print(len("python"))
 print(len([1,2,3]))
-# list 리스트롸 변환
+# list 리스트로 변환
 print(list("python"))
 a = [1,2,3]
 b = list(a)
@@ -286,7 +287,7 @@ print(min("python"))
 # open 파일을 열때 사용
 # f = open("binary_file", "rb")
 
-# pow 제곱한 결과값반화
+# pow 제곱한 결과값반환
 print(pow(2, 4))
 print(pow(3, 3))
 # range 범위
@@ -324,7 +325,7 @@ pickle.dump(data, f)
 f.close()
 
 import pickle
-f = open("test.txt", 'rb' )
+f = open("test.txt", 'rb')
 data = pickle.load(f)
 print(data)
 
